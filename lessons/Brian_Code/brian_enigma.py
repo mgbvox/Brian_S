@@ -1,6 +1,7 @@
 import string
 import numpy as np
 import sys
+import json
 
 chars = string.ascii_lowercase
 
@@ -22,7 +23,8 @@ if mode == 'e':
     #Generate char cypher rotors (one-to-one mapping ch1 to ch2)
     rotors = [get_rotor(chars) for _ in range(n_rotors)]
 else:
-    rotors = np.load(sys.argv[3])
+    with open(sys.argv[3]) as json_file:
+        rotors = json.load(json_file)
     n_rotors = len(rotors)
 
 #Pre-calculate shifted rotors for each timestep in the encoding process.
@@ -68,11 +70,15 @@ def decode(es):
 
 if mode == 'e':
     print(encode(s))
-    if not sys.argv[4]:
+    if not len(sys.argv) == 5:
         mid = np.random.randint(1,1000)
     else:
         mid = sys.argv[4]
-    np.save(f'{mid}_rotors',rotors)
+
+    j = json.dumps(rotors)
+    f = open(f"{mid}_rotors.json", "w")
+    f.write(j)
+    f.close()
 
 else:
     print(decode(s))

@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e416a-fdbc-4eec-ac5a-0cc74d197352" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lessons/Brian_Code/brian_enigma.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Brian_Code/sys_examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Brian_S.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Brian_S.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Enigma_Class.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Enigma_Class.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Enigma_Functions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Enigma_Functions.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/lesson_1-Dicts.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson_1-Dicts.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/pcc-ch7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/pcc-ch7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Brian_Code/Enigma_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Brian_Code/Enigma_1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Brian_Code/brian_enigma.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Brian_Code/brian_enigma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Brian_Code/test_rotors.npy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
